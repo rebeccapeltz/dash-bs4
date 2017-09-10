@@ -1,4 +1,5 @@
-$(function () {
+$(window).on("load", function(){
+  console.log(census_data);
     var chart;
         chart = new Highcharts.Chart({
             chart: {
