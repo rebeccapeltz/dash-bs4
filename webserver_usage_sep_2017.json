@@ -1,0 +1,283 @@
+//https://trends.builtwith.com/web-server
+const web_server_sep_11_2017 = [
+ {
+   "Name": "nginx",
+   "10k": "3,963",
+   "100k": "34,074",
+   "Million": "292,802",
+   "Entire Web": "35,826,971"
+ },
+ {
+   "Name": "Apache",
+   "10k": "3,780",
+   "100k": "39,242",
+   "Million": "377,915",
+   "Entire Web": "69,775,578"
+ },
+ {
+   "Name": "IIS",
+   "10k": "1,884",
+   "100k": "18,882",
+   "Million": "125,702",
+   "Entire Web": "58,881,364"
+ },
+ {
+   "Name": "Varnish",
+   "10k": "1,338",
+   "100k": "6,056",
+   "Million": "25,320",
+   "Entire Web": "2,509,979"
+ },
+ {
+   "Name": "BIG-IP",
+   "10k": "449",
+   "100k": "2,102",
+   "Million": "6,094",
+   "Entire Web": "149,791"
+ },
+ {
+   "Name": "Apache Tomcat Coyote",
+   "10k": "429",
+   "100k": "2,042",
+   "Million": "8,992",
+   "Entire Web": "267,826"
+ },
+ {
+   "Name": "Rack Cache",
+   "10k": "307",
+   "100k": "1,340",
+   "Million": "4,503",
+   "Entire Web": "148,393"
+ },
+ {
+   "Name": "Phusion Passenger",
+   "10k": "161",
+   "100k": "939",
+   "Million": "4,241",
+   "Entire Web": "539,266"
+ },
+ {
+   "Name": "Cowboy",
+   "10k": "123",
+   "100k": "494",
+   "Million": "1,875",
+   "Entire Web": "68,094"
+ },
+ {
+   "Name": "LiteSpeed",
+   "10k": "90",
+   "100k": "1,282",
+   "Million": "18,079",
+   "Entire Web": "1,809,301"
+ },
+ {
+   "Name": "Citrix NetScaler",
+   "10k": "81",
+   "100k": "339",
+   "Million": "1,131",
+   "Entire Web": "2,431"
+ },
+ {
+   "Name": "Application Request Routing",
+   "10k": "66",
+   "100k": "458",
+   "Million": "1,925",
+   "Entire Web": "1,247,433"
+ },
+ {
+   "Name": "Jetty",
+   "10k": "50",
+   "100k": "236",
+   "Million": "588",
+   "Entire Web": "18,967"
+ },
+ {
+   "Name": "JBoss",
+   "10k": "48",
+   "100k": "163",
+   "Million": "427",
+   "Entire Web": "23,188"
+ },
+ {
+   "Name": "lighttpd",
+   "10k": "29",
+   "100k": "203",
+   "Million": "929",
+   "Entire Web": "480,109"
+ },
+ {
+   "Name": "Oracle Application Server",
+   "10k": "26",
+   "100k": "130",
+   "Million": "281",
+   "Entire Web": "4,902"
+ },
+ {
+   "Name": "Tengine",
+   "10k": "22",
+   "100k": "93",
+   "Million": "2,058",
+   "Entire Web": "1,093,120"
+ },
+ {
+   "Name": "IBM HTTP Server",
+   "10k": "22",
+   "100k": "99",
+   "Million": "287",
+   "Entire Web": "5,866"
+ },
+ {
+   "Name": "Oracle HTTP Server",
+   "10k": "18",
+   "100k": "85",
+   "Million": "208",
+   "Entire Web": "1,936"
+ },
+ {
+   "Name": "Resin",
+   "10k": "16",
+   "100k": "102",
+   "Million": "476",
+   "Entire Web": "25,684"
+ },
+ {
+   "Name": "Microsoft Personal Web Server",
+   "10k": "15",
+   "100k": "97",
+   "Million": "385",
+   "Entire Web": "3,276"
+ },
+ {
+   "Name": "Sun ONE Web Server",
+   "10k": "12",
+   "100k": "99",
+   "Million": "1,064",
+   "Entire Web": "226,083"
+ },
+ {
+   "Name": "Lotus Domino",
+   "10k": "7",
+   "100k": "75",
+   "Million": "264",
+   "Entire Web": "15,033"
+ },
+ {
+   "Name": "ZServer",
+   "10k": "7",
+   "100k": "68",
+   "Million": "258",
+   "Entire Web": "10,718"
+ },
+ {
+   "Name": "Netscape Enterprise Server",
+   "10k": "6",
+   "100k": "18",
+   "Million": "38",
+   "Entire Web": "434"
+ },
+ {
+   "Name": "OracleAS Web Cache",
+   "10k": "5",
+   "100k": "12",
+   "Million": "33",
+   "Entire Web": "493"
+ },
+ {
+   "Name": "Websphere Application Server",
+   "10k": "4",
+   "100k": "10",
+   "Million": "31",
+   "Entire Web": "230"
+ },
+ {
+   "Name": "Spartan Web Server",
+   "10k": "4",
+   "100k": "7",
+   "Million": "61",
+   "Entire Web": "2,087"
+ },
+ {
+   "Name": "Cherokee",
+   "10k": "3",
+   "100k": "10",
+   "Million": "141",
+   "Entire Web": "2,232"
+ },
+ {
+   "Name": "Sun Java System",
+   "10k": "3",
+   "100k": "27",
+   "Million": "50",
+   "Entire Web": "2,307"
+ },
+ {
+   "Name": "JRun",
+   "10k": "3",
+   "100k": "28",
+   "Million": "101",
+   "Entire Web": "5,273"
+ },
+ {
+   "Name": "Web Brick",
+   "10k": "3",
+   "100k": "13",
+   "Million": "137",
+   "Entire Web": "17,746"
+ },
+ {
+   "Name": "ISA Web Publishing Load Balancer",
+   "10k": "2",
+   "100k": "12",
+   "Million": "59",
+   "Entire Web": "680"
+ },
+ {
+   "Name": "mod_wsgi",
+   "10k": "2",
+   "100k": "5",
+   "Million": "12",
+   "Entire Web": "746"
+ },
+ {
+   "Name": "BOA",
+   "10k": "2",
+   "100k": "6",
+   "Million": "26",
+   "Entire Web": "923"
+ },
+ {
+   "Name": "Conference Room",
+   "10k": "1",
+   "100k": "1",
+   "Million": "1",
+   "Entire Web": "3"
+ },
+ {
+   "Name": "G-WAN",
+   "10k": "1",
+   "100k": "1",
+   "Million": "2",
+   "Entire Web": "219"
+ },
+ {
+   "Name": "Rapidsite",
+   "10k": "1",
+   "100k": "1",
+   "Million": "1",
+   "Entire Web": "6"
+ },
+ {
+   "Name": "AOL Server",
+   "10k": "1",
+   "100k": "4",
+   "Million": "16",
+   "Entire Web": "363"
+ },
+ {
+   "Name": "Mod Layout",
+   "10k": "1",
+   "100k": "8",
+   "Million": "36",
+   "Entire Web": "6,546"
+ }
+]
