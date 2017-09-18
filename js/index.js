@@ -1,5 +1,5 @@
 $(window).on("load", function(){
-  console.log(census_data);
+//   console.log(census_data);
     var chart;
         chart = new Highcharts.Chart({
             chart: {
@@ -69,7 +69,7 @@ $(window).on("load", function(){
                '#a6c96a'
             ],
             title: {
-                text: 'Example Chart',
+                text: 'Most Accessed Pages',
                 style: {
                   color: '#555'
                 }
@@ -81,21 +81,7 @@ $(window).on("load", function(){
                 borderWidth: 0,
                 backgroundColor: '#FFFFFF'
             },
-            xAxis: {
-                categories: [
-                    '2006',
-                    '2007',
-                    '2008',
-                    '2009',
-                    '2010',
-                    '2011'
-                ]
-            },
-            yAxis: {
-                title: {
-                    text: ''
-                }
-            },
+          
             tooltip: {
                 shared: false,
                 valueSuffix: 'points'
@@ -115,12 +101,12 @@ $(window).on("load", function(){
             type: 'pie',
             name: 'Browser share',
             data: [
-                ['Data 1',   20.0],
-                ['Data 2',       16.8],
-                ['Data 3',       10.8],
-                ['Data 4',    8.5],
-                ['Data 5',     6.2],
-                ['Data 6',   5]
+                ['Home',   20.0],
+                ['Product A',       16.8],
+                ['Product B',       10.8],
+                ['Contact',    8.5],
+                ['Checkout',     6.2],
+                ['About',   5]
             ]
             }]
         });
