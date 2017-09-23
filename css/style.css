@@ -51,7 +51,7 @@ body {
  * Typography
  */
 h1 {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   padding-bottom: 9px;
   border-bottom: 1px solid #eee;
 }
@@ -119,7 +119,7 @@ h1 {
     flex-wrap:wrap;
     flex-direction:row;
     justify-content: space-evenly;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
   }
 }
 .value-display {
@@ -127,6 +127,7 @@ h1 {
   flex-direction: column;
   align-items: center;
 }
+
 
 .value-container-alt-1 {
   background-color: #ffce54;
@@ -140,13 +141,13 @@ h1 {
 
 .value-container {
   margin-bottom: 1rem;
-  width: 10rem;
-  height: 10rem;
+  width: 11rem;
+  height: 11rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 2.3rem;
 }
 
 .chart-display {
