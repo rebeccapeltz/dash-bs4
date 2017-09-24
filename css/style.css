@@ -139,6 +139,19 @@ h1 {
   color: #000;
 }
 
+.value-container-alt-3 {
+  background-color: #ED5565;
+  color: #000;
+}
+.value-container-alt-4 {
+  background-color: #AC92EC;
+  color: #000;
+}
+.value-container-alt-5 {
+  background-color: #A0D468;
+  color: #000;
+}
+
 .value-container {
   margin-bottom: 1rem;
   width: 11rem;
